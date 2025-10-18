@@ -1,3 +1,28 @@
+
+# ArmorNet：实时旋转装甲板检测系统
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+**ArmorNet** 是一个面向 RoboMaster 视觉任务的 **实时旋转装甲板检测网络**，  
+基于 **YOLOv11-OBB** 架构实现，支持 **Oriented Bounding Box（旋转框）检测**、**多线程推理** 与 **OpenVINO/Triton 部署**，  
+适用于机器人嵌入式视觉系统与实时推理场景。
+
+---
+
+## 🚀 项目亮点
+
+- 🧭 **旋转装甲板检测（OBB）** —— 精确识别倾斜与旋转装甲板目标  
+- ⚡ **实时推理** —— 支持 OpenVINO、Triton、TensorRT 等多后端加速  
+- 🧠 **统一训练引擎** —— 一套 API 实现 Train / Val / Predict / Export  
+- 🔧 **模块化架构** —— 可扩展至分割、姿态估计、分类等任务  
+- 💡 **轻量化部署** —— 可在 Jetson、工控机等嵌入式设备上高效运行  
+
+---
+
+## 🧩 目录结构
+
 .
 ├── docs/                          # 项目文档
 │   └── README.md
